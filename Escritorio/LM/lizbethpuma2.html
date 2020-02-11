@@ -1,0 +1,33 @@
+   <!-- Formulario donde el usuario introduzca
+    Nombre y apellido (de forma obligatoria), telefono y fecha de nacimiento (un grupo) 
+    Datos relacionados con el nivel de estudio (segundo grupo).
+    opcion de enviaar // borrar formulario tambien -->
+
+<html>
+<h1><center>Formulario</h1></center>
+<form>
+<fieldset>
+  <p>Nombre y apellidos : <input type="text" name="nombre" size="40" required></p>  
+  <p>Fecha de nacimiento: <input type="date" name="nacido" </p>
+  <p>E-mail: <input type="text" name="correo" size="40"</P>
+  <p> Telefono: <input type="tel" name="telefono" </p>
+<fieldset/>
+
+  <p>Sexo:
+    <input type="radio" name="hm" value="h"> Hombre
+    <input type="radio" name="hm" value="m"> Mujer
+  </p>
+    
+    <p> Estudios:
+    <select name="menu">
+      <option value="1">Bachillerato</option>
+      <option value="2">Estudios Universitarios</option>
+      <option value="3" selected>Educacion Secundaria Obligatoria</option>
+    </select>
+    </p>
+
+     <p>
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Borrar">
+  </p>
+
